@@ -1,5 +1,4 @@
-/* ::-webkit-scrollbar { display: none; } 
- */
+
 .vnavbod{
   margin-left: 15px;
   
@@ -137,7 +136,6 @@
     position: fixed;
     right: 20px;
     top: 10px;
-
     height: 50px;
     border-radius: 50%;
     text-align: center;
@@ -151,91 +149,6 @@
     top: 35%;
     z-index: 999;
   }
-  .overla {
-    position: absolute; /* Sit on top of the page content */
-    display: block; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 600px; /* Full height (cover the whole page) */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-  }
- 
- 
-
-  .slide-image {
-    height: 100%;
-    min-height: 100%;
-    min-width: 100%;
-    position: absolute;
-    right: 0;
-    width: auto !important;
-    background-image: url('../../assets/img/workplace-transformation-research-study-home.jpg');
-    background-size: cover;
-  }
-  .repeated-css {
-    width: 100%;
-    height: 100vh;
-}
-industries-gradient, .product-gradient, .casestudies-gradient {
-  background-color: #713171;
-}
-.jdrow{
-  display: block;
-}
-.gdrow{
-  display: none;
-}
-@media screen and (max-width: 767px)
-{
-  .repeated-css {
-    height: 480px;
-}
-.jdrow{
-  display: none;
-}
-.gdrow{
-  display: block
-}
-.slide-image {
-  max-width: 100%;
-    height: auto;
-  background-image: url('../../assets/img/workplace-transformation-research-study-home-mob.jpg');
-}
-
-.overla{
-  height: 230px;
-}
-
-}
-@media screen and (max-width: 1024px)
-{
-  .repeated-css {
-    height: 600px;
-}
-}
-.hero{
-  width: 100%;
-    position: relative;
-    overflow: hidden;
-    padding: 140px 0 100px 0;
-}
-
-/* .heros{
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    height: 600px;
-    background-image: url('../../assets/img/banner/Digital-Transformation.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    padding: 140px 0 100px 0;
-} */
-
 .hero1{
   width: 100%;
   position: relative;
@@ -247,60 +160,11 @@ industries-gradient, .product-gradient, .casestudies-gradient {
   padding: 140px 0 100px 0;
 }
 
-.heroper{
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  height: 600px;
-  background-image: url('../../assets/img/banner/performance-management.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; 
-  padding: 140px 0 100px 0;
-}
 
-.nav-link{
-  font-size: 13px;
-  color: #e28714 ; 
-  font-weight: 700;
-  border-top-style: outset;
-  border-top-right-radius: 5px;
-  border-width: initial;
-  width: 70px;
-  padding-left: 15px ;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.navdata li{
-  list-style: none;
-}
-.nav-linkdata{
-  font-size: 0px ;
-  color: #e28714 ; 
-  font-weight: 700;
-  border-top-style: outset;
-  border-top-right-radius: 5px;
-  border-width: initial;
-  width: 70px;
-  padding-left: 15px ;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.nav-linkdata a:active{
-  color: #fff;
-  font-size: 16px;
-  width: auto;
-
-}
 .mainSection{
     height:650px;
     overflow-y: scroll;
 }
-.text{
-    position: absolute;
-    left: 10%;
-}
-
 
 .bgopa{
   background: #030b22 url(../../assets/img/banner/Digital-Transformation.jpg)  no-repeat scroll -20px 65px;
@@ -371,144 +235,12 @@ industries-gradient, .product-gradient, .casestudies-gradient {
   }
 }
 
-
-
-
-@media (min-width: 576px) { 
-    .text{
-        position: absolute;
-        left: 0;
-    }
-
- }
-
-@media (min-width: 768px) { 
-    .text{
-        position: absolute;
-        left: 0;
-    }
-  
-    
- }
-
-
-
-
-
-
-
-
- .counts {
-  padding-bottom: 30px;
-}
-
-.counts .count-box {
-  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-.counts .count-box i {
-  display: block;
-  font-size: 64px;
-  margin-bottom: 15px;
-}
-
-.counts .count-box span {
-  font-size: 42px;
-  display: block;
-  font-weight: 700;
-  color: #1c5c93;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-
-.card-headers{
-  border-top-left-radius: .25rem;
-  border-top-right-radius: .25rem;
-  height: 135px;
-  padding: 1rem;
-  background-color: #17a2b8!important;
-  text-align: center;
-}
-.cardImage{
-  left: 50%;
-  margin-left: -45px;
-  position: absolute;
-  top: 80px;
-}
-.imgca{
-  border: 3px solid #fff;
-  height: 90px;
-  width: 90px;
-  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)!important;
-  border-radius: 50%;
-}
-.customerName{
-    font-weight: 700;
-    color: #fff;
-    font-size: 18px !important
-}
-
-/* ================= */
-
-
 .img-bot{
   height: 40px;
   width: 60px;
   float: left;
   margin-right: 10px;
 }
-
-
-
-.clients .clients-wrap {
-  border-top: 1px solid #f1eeed;
-  border-left: 1px solid #f1eeed;
-}
-
-.clients .client-logo {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid #f1eeed;
-  border-bottom: 1px solid #f1eeed;
-  overflow: hidden;
-  border-color: #fff;
-  border-width: 1px;
-  height: 250px;
-}
-
-.clients .client-logo img {
-  transition: all 0.3s ease-in-out;
-    height: auto;
-    width: auto;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.clients .client-logo:hover img {
-  -webkit-filter: none;
-  filter: none;
-  transform: scale(1.1);
-}
-
-
-
-
-
-
-/* ====================== */
-
-
 .btn-shutter-more {
 	color: #fff;
 	border: 1px solid #fff;
@@ -555,9 +287,6 @@ industries-gradient, .product-gradient, .casestudies-gradient {
 	width: 100%;
 }
 
-
-
-/* ==========contact  us css  */
 .contact{
   padding: 30px;
 }
@@ -592,82 +321,6 @@ industries-gradient, .product-gradient, .casestudies-gradient {
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #428bca;
-}
-
-.contact .php-email-form input {
-  padding: 20px 15px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #428bca;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #6aa3d5;
@@ -691,154 +344,4 @@ industries-gradient, .product-gradient, .casestudies-gradient {
   }
 }
 
-/* ======== footer css   */
 
-#footer {
-  background: #587187;
-  padding: 0 0 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer .footer-top {
-  background: #5c768d;
-  border-top: 1px solid #768fa6;
-  border-bottom: 1px solid #67839c;
-  padding: 60px 0 30px 0;
-}
-
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
-}
-
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #768fa6;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #428bca;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #9eccf4;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #fff;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4;
-}
-
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #428bca;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 4;
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #5295ce;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  color: #9eccf4;
-}

@@ -17,6 +17,7 @@ import { LovecustomerComponent } from './lovecustomer/lovecustomer.component';
 import { ClientComponent } from './client/client.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
     LovecustomerComponent,
     ClientComponent,
     IndustriesComponent,
-    OurteamComponent
+    OurteamComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
